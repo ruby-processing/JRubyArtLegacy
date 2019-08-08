@@ -2,7 +2,7 @@
 Snapshot of JRubyArt as a Wrapper requiring Vanilla Processing
 
 ## Requirements
-A version of `jruby_art` that requires an installed version of [processing](https://github.com/processing/processing/releases) suggested versions processing 3.3.7 for predicable shader behaviour or 3.5.3 as latest. Also requires at least [jruby-9.2.7.0](http://jruby.org/download) see [wiki](https://github.com/ruby-processing/JRubyArtLegacy) for building gem from this repo.  Changes from processing-2.0 to [processing-3.0 here](https://github.com/processing/processing/wiki/Changes-in-3.0). Expected to work on same platforms as vanilla processing (windows, mac, linux).
+A version of `jruby_art` that requires an installed version of [processing](https://github.com/processing/processing/releases) suggested versions processing 3.3.7 for predicable shader behaviour or 3.5.3 as latest. Also requires at least [jruby-9.2.7.0](http://jruby.org/download) see [wiki](https://github.com/ruby-processing/JRubyArtLegacy/wiki) for building gem from this repo.  Changes from processing-2.0 to [processing-3.0 here](https://github.com/processing/processing/wiki/Changes-in-3.0). Expected to work on same platforms as vanilla processing (windows, mac, linux).
 ## Requirements
 
 A suitable version of ruby (MRI `ruby 2.3+` or `jruby-9.2.7.0`) to download gem.
