@@ -1,0 +1,56 @@
+# Site settings
+port: 4000
+title: JRubyArt (Code as Art)
+email: mamba2928@yahoo.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+   JRubyArt is a ruby wrapper for processing-3.5.3+.
+baseurl: "" # the subpath of your site, e.g. /blog
+regenerate: true
+url: "https://ruby-processing.github.io/JRubyArt"
+urls:
+  bugs: http://github.com/ruby-processing/JRubyArt/issues
+  github: http://github.com/ruby-processing/JRubyArt/
+twitter_username: monkstoneT
+github_username:  monkstone
+include: [collections]
+collections:
+  blocks:
+    output: true
+    permalink: /blocks/:path
+  classes:
+    output: true
+    permalink: /classes/:path
+  editors:
+    output: true
+    permalink: /editors/:path
+  k9methods:
+    output: true
+    permalink: /methods/:path
+  gems:
+    output: true
+    permalink: /gems/:path
+  libraries:
+    output: true
+    permalink: /libraries/:path
+  modules:
+    output: true
+    permalink: /modules/:path
+  magic:
+    output: true
+    permalink: /magic/:path
+  objects:
+    output: true
+    permalink: /objects/:path
+
+syntax-highlighting:
+  enabled: true
+
+sass:
+  sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
