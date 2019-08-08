@@ -1,5 +1,5 @@
-# JRubyArt
-Depends on jruby, and processing, without them this project would not exist. I see this as being a development of ruby-processing and many others were involved in developing that see [github][] for a complete list of contributors. This is fresh start so for ruby-processing history see [github] logs.
+# JRubyArtLegacy
+Depends on jruby, and processing, without them this project would not exist. I see this as being a development of ruby-processing and many others were involved in developing that see [github][] for a complete list of contributors. This is a snapshot of JRubyArt as a wrapper around vanilla processing history which developed from ruby-processing see [github] logs.
 
 ## JRuby
 

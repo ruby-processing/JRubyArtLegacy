@@ -1,4 +1,4 @@
 # ruby-processing.github.io
-JRubyArt Website source. Help Welcome!
+JRubyArtLegacy Website source. Help Welcome!
 
-[Visit Website](https://ruby-processing.github.io/JRubyArt/)
+[Visit Website](https://ruby-processing.github.io/JRubyArtLegacy/)
