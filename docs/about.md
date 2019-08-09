@@ -1,18 +1,18 @@
 ---
 layout: page
-title:  "What is JRubyArt?"
+title:  "What is JrubyArtLegacy?"
 permalink: about
 ---
 
-  - [JRubyArt](https://github.com/ruby-processing/JRubyArt) allows you
-    to code [processing](https://processing.org/) sketches in regular
-    ruby (it supersedes ruby-processing for processing-3.0+).
+  - [JrubyArtLegacy](https://github.com/ruby-processing/JRubyArt) is a Ruby
+    wrapper around [processing](https://processing.org/) that allows you to
+    createsketches in regular ruby (it depends on installed vanilla processing).
 
   - Vanilla processing is essentially Java with an antlr \[1\]
     pre-processor to make writing code simpler (in the processing ide), although
     it is debatable whether whether `color` should have ever been a type!!!.
 
-  - [JRubyArt](https://github.com/ruby-processing/JRubyArt) is able to
+  - [JrubyArtLegacy](https://github.com/ruby-processing/JrubyArtLegacy) is able to
     emulate the simplicity of vanilla processing, by using JRuby \[2\]
     to load regular processing jars into a ruby runtime environment.
 
