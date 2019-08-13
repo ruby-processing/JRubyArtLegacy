@@ -7,17 +7,17 @@ require 'rake'
 Gem::Specification.new do |spec|
   spec.name = 'jruby_art'
   spec.version = JRubyArt::VERSION
-  spec.authors = %w(Jeremy\ Ashkenas Guillaume\ Pierronnet Martin\ Prout)
+  spec.authors = %w[Jeremy\ Ashkenas Guillaume\ Pierronnet Martin\ Prout]
   spec.email = 'mamba2928@yahoo.co.uk'
   spec.description = <<-EOS
   JRubyArt Legacy is a ruby wrapper for the processing art framework, with
   enhanced functionality. Use both processing libraries and ruby gems in your
   sketches. Features create/run/watch/live modes.
   EOS
-  spec.summary = %q{Code as Art, Art as Code. Processing and Ruby are meant for each other.}
+  spec.summary = %q[Code as Art, Art as Code. Processing and Ruby are meant for each other.]
   spec.homepage = "https://ruby-processing.github.io/JRubyArtLegacy/"
-  spec.post_install_message = %q{Use 'k9 --install' to install jruby-complete, and 'k9 --check' to check config.}
-  spec.license = %w(GPL-3.0 LGPL-2.0)
+  spec.post_install_message = %q[Use 'k9 --install' to install jruby-complete, and 'k9 --check' to check config.]
+  spec.licenses = ["GPL-3.0", "LGPL-2.0"]
 
   spec.files = FileList['bin/**/*', 'lib/**/*', 'library/**/*', 'samples/**/*', 'vendors/Rakefile'].exclude(/jar/).to_a
   spec.files << 'lib/rpextras.jar'
